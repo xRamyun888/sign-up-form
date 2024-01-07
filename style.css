@@ -1,8 +1,8 @@
-* {
+/* * {
     border-style: solid;
     border-color: red;
     border-width: 1px;
-}
+} */
 
 #page {
     display: flex;
@@ -30,7 +30,6 @@ h1 {
 }
 
 #logoBanner {
-    display: inline-block;
     position: absolute;
     text-align: center;
     min-width: 34.6%;
@@ -40,18 +39,64 @@ h1 {
     background: rgba(255, 0, 0, 0.3);
 }
 
-#rightPage {
-    background-color: lightblue;
+#rightText {
+    max-height: 30%;
+    min-height: 30%;
+    padding-left: 10%;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    background-color: rgb(245, 245, 245);
 }
 
-#rightText {
-    min-height: 35%;
+#yap {
+    font-size: 28px;
+    font-weight: bold;
 }
 
 #forms {
     min-height: 30%;
+    max-height: 30%;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0), 0 6px 3px 0 rgba(0, 0, 0, 0.14);
+}
+
+form { 
+    display: flex;
+    padding-left: 10%;
+}
+
+#formTitle {
+    font-size: 28px;
+    padding-left: 10%;
+    font-weight: bold;
+}
+
+.test {
+    padding-right: 5%;
+}
+
+input {
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+#submitButton {
+    background-color: rgb(115, 223, 255);
+    border-color: rgb(115, 223, 255);
+    margin-left: 10%;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 #rightFooter {
-    min-height: 35%;
+    min-height: 30%;
+    max-height: 30%;
+    background-color: rgb(245, 245, 245);
+}
+
+#footerText {
+    margin-left: 10%;
+    font-size: 22px;
 }
