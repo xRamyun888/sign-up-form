@@ -1,3 +1,57 @@
+* {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+}
+
+#page {
+    display: flex;
+}
+
+#leftPage {
+    display: inline-block;
+    max-width: 35%;
+    max-height: 100%;
+}
+
+img {
+    min-height: 100%;
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url("/fonts/Norse-Bold.otf") format("opentype");
+}
+
 h1 {
-    color: blue;
+    font-family: "Norse-Bold", sans-serif;
+    font-size: 64px;
+}
+
+#logoBanner {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    min-width: 34.6%;
+    max-width: 35%;
+    top: 20%;
+    color: white;
+    background: rgba(255, 0, 0, 0.3);
+}
+
+#rightPage {
+    background-color: lightblue;
+}
+
+#rightText {
+    min-height: 35%;
+}
+
+#forms {
+    min-height: 30%;
+}
+
+#rightFooter {
+    min-height: 35%;
 }
