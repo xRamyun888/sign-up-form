@@ -6,12 +6,15 @@
 
 #page {
     display: flex;
+    height: 100vh;
+    width: 100vw;
 }
 
 #leftPage {
     display: inline-block;
     max-width: 35%;
     max-height: 100%;
+    background-color: rgb(245, 245, 245);
 }
 
 img {
@@ -32,7 +35,7 @@ h1 {
 #logoBanner {
     position: absolute;
     text-align: center;
-    min-width: 34.6%;
+    min-width: 35.3%;
     max-width: 35%;
     top: 20%;
     color: white;
@@ -49,7 +52,8 @@ h1 {
 }
 
 #yap {
-    font-size: 28px;
+    font-size: 26px;
+    padding-right: 10%;
     font-weight: bold;
 }
 
@@ -74,29 +78,38 @@ form {
     padding-right: 5%;
 }
 
+label {
+    font-family: Helvetica, sans-serif;
+}
+
 input {
     padding-bottom: 5%;
     margin-bottom: 5%;
     margin-top: 1%;
     border-radius: 5px;
-    max-width: 100%;
 }
 
 #submitButton {
+    /* display: block; */
     background-color: rgb(115, 223, 255);
     border-color: rgb(115, 223, 255);
     margin-left: 10%;
     font-size: 18px;
     font-weight: bold;
+    min-width: 15%;
 }
 
 #rightFooter {
-    min-height: 30%;
-    max-height: 30%;
+    min-height: 35%;
+    max-height: 35%;
     background-color: rgb(245, 245, 245);
 }
 
 #footerText {
     margin-left: 10%;
     font-size: 22px;
+}
+
+a {
+    color: rgba(99, 0, 0, 0.9);
 }

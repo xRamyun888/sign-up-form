@@ -18,7 +18,7 @@
         </div>
         <div id="rightPage">
             <div id="rightText">
-                <p id="yap">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
+                <p id="yap">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br><br>
                     Sign up now to get started.<br><br>
                     You <i>know</i> you want to.
                 </p>
@@ -29,26 +29,26 @@
                     <form>
                         <div class="test">
                             <label for="fname">FIRST NAME</label><br>
-                            <input type="text" id="fname" name="fname"><br>
+                            <input type="text" id="fname" name="fname" required><br>
                             <label for="email">EMAIL</label><br>
-                            <input type="text" id="email" name="email"><br>
+                            <input type="text" id="email" name="email" required><br>
                             <label for="password">PASSWORD</label><br>
-                            <input type="text" id="password" name="password">
+                            <input type="password" id="password" name="password" required>
                         </div>
                         <div class="test">
                             <label for="lname">LAST NAME</label><br>
-                            <input type="text" id="lname" name="lname"><br>
+                            <input type="text" id="lname" name="lname" required><br>
                             <label for="phoneNumber">PHONE NUMBER</label><br>
                             <input type="text" id="phoneNumber" name="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
                             <label for="confirmPassword">CONFIRM PASSWORD</label><br>
-                            <input type="text" id="confirmPasword" name="confirmPassword">
+                            <input type="password" id="confirmPasword" name="confirmPassword" required>
                         </div>
                 </div>
             </div>
             <div id="rightFooter">
                 <input type="submit" value="Create Account" id="submitButton">
             </form>
-                <p id="footerText">Already have an account? Log in</p>
+                <p id="footerText">Already have an account? <a href="">Log in.</a></p>
             </div>
         </div>
     </div>
